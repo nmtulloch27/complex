@@ -1,6 +1,6 @@
 module.exports = {
-    redisHosts: process.env.REDIS_HOSTS,
-    redisPorts: process.env.REDIS_POSTS,
+    redisHost: process.env.REDIS_HOST,
+    redisPort: process.env.REDIS_POST,
     pgUser: process.env.PGUSER,
     pgHost: process.env.PGHOST,
     pgDatabase: process.env.PGDATABASE,
