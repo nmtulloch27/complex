@@ -17,3 +17,7 @@ after_success:
     #log into docker cli
     - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
     #take these image and push to docker 
+    - docker push nathant27/multi-client
+    - docker push nathant27/multi-nginx
+    - docker push nathant27/multi-server
+    - docker push nathant27/multi-worker
