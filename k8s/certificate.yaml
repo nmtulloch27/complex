@@ -15,6 +15,6 @@ spec:
         config:
             - http01:
                 ingressClass: nginx
-            domains:
+              domains:
                 - tullochfoundation.com
                 - www.tullochfoundation.com
