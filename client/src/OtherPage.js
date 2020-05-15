@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 export default() => {
     return(
         <div>
-            Nate M Tulloch second page!
+            Nate M Tulloch Second page!
             <Link to="/">GO back to home</Link>
         </div>
     );
