@@ -14,7 +14,7 @@ spec:
     acme:
         config:
             - http01:
-                    ingressClass: nginx
-                domains:
+                  ingressClass: nginx
+              domains:
                     - tullochfoundation.com
                     - www.tullochfoundation.com
